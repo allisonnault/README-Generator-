@@ -1,17 +1,17 @@
-# Test 1
+# test 3
 
 ![license Badge](https://img.shields.io/github/license/allisonnault/README-Generator-)
     
 ## Description
     
-testing
+teting
     
 ## Table of Contents
     
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](#contributing)
+- [Contributing](#how-to-contribute)
 - [Tests](#tests)
 - [Questions](#questions)
     
@@ -30,7 +30,7 @@ testing
     
 MIT
     
-<a name="contributing"></a>
+<a name="how-to-contribute"></a>
 ## How to Contribute
     
 Contributor Covenant v2.1
@@ -43,5 +43,6 @@ testing
 <a name="questions"></a>
 ## Questions
     
-For questions check out my GitHub profile [allisonnault](https://www.github.com/undefined)
-Or you can email me at [userEmail](allisonrnault@gmail.com)
+For questions check out my GitHub profile [allisonnault](https://www.github.com/allisonnault)
+
+Or you can email me at [allisonrnault@gmail.com](allisonrnault@gmail.com)
