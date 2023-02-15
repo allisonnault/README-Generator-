@@ -1,7 +1,9 @@
-# ${project}
-![license Badge](https://img.shields.io/github/license/${gitHub}/${repo})
+# ${response.project}
+
+![license Badge](https://img.shields.io/github/license/${response.gitHub}/${repo})
 
 ## Description
+
 ${description}
 
 ## Table of Contents
@@ -16,8 +18,7 @@ ${description}
 <a name="installation"></a>
 ## Installation
 
-How to install dependancies:
-${instal}
+How to install dependancies: ${instal}
 
 <a name="usage"></a>
 ## Usage
