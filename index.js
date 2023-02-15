@@ -1,37 +1,9 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const questions = require('./questions');
 
-// TODO: Create an array of questions for user input
-// const questions;
-inquirer.prompt([
-    {
-        type: 'input',
-        message: 'What is the title of your project?',
-        name: 'project',
-    },
-    {
-        type: 'input',
-        message: 'What is your GitHub username?',
-        name: 'gitHub',
-    },
-    {
-        type: 'input',
-        message: "What is the name of your GitHub repository?",
-        name: 'repo',
-    },
-    {
-        type: 'input',
-        message: 'Enter a description of your project',
-        name: 'description',
-    },
-    {
-        type: 'input',
-        message: 'What are the installation instructions?',
-        default: 'npm i',
-        name: 'instal',
-    },
-    
-])
+console.log(questions);
+inquirer.prompt()
 .then((response) =>
 console.log(response));
 
