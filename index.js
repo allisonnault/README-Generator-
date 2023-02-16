@@ -8,7 +8,7 @@ const readmeInfo = [];
 inquirer.prompt(questions)
 .then((response) =>
 {readmeInfo.push(response)
-fs.writeFile(`${response.project}.md`, genREADME(response), 
+fs.writeFile(`test.md`, genREADME(response), 
 (err) => {
     if (err) throw err;
     console.log("Your markdown file was created!");
