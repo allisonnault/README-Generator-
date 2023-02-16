@@ -4,12 +4,28 @@ function renderLicenseBadge(license) {
         licenseBadge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
       } else if (license === 'Apache 2.0 License') {
         licenseBadge = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
-      } else if (license === 'BSD 2-Clause License') {
-        let licenseBadge = '[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)';
+      } else if (license === 'GNU GPL v3') {
+        let licenseBadge = '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
       } else { licenseBadge = ' ';}
       return licenseBadge;
     }
 
+function renderLicenseLink(license) {
+      if (license !== "none") {
+        return `- [License](#license)`;
+      }
+    }
+
+function renderLicenseSection(license) {
+      if (license !== "none") {
+        return `<a name="license"></a>
+## License
+            
+This repo has the ${license} license.`;
+      } else { 
+        return " ";
+      }
+    }
 
 function genREADME (response) {
     return `# ${response.project}
@@ -24,7 +40,7 @@ ${response.description}
     
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
+${renderLicenseLink(response.license)}
 - [Contributing](#how-to-contribute)
 - [Tests](#tests)
 - [Questions](#questions)
@@ -39,10 +55,7 @@ How to install dependancies: ${response.instal}
     
 ${response.usage}
     
-<a name="license"></a>
-## License
-    
-${response.license}
+${renderLicenseSection(response.license)}
     
 <a name="how-to-contribute"></a>
 ## How to Contribute
