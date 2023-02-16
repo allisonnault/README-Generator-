@@ -8,7 +8,7 @@
 
 ## Description
     
-I wanted to create an application to help the user write a professional README.md file
+I wanted to create an application to help the user quickly write a professional README.md file for a new project
     
 ## Table of Contents
     
@@ -18,16 +18,21 @@ I wanted to create an application to help the user write a professional README.m
 - [Contributing](#how-to-contribute)
 - [Tests](#tests)
 - [Questions](#questions)
+- [Sample](#sample)
     
 <a name="installation"></a>
 ## Installation
     
-How to install dependancies: npm i
+How to install dependancies: 
+run npm i in the integrated terminal
     
 <a name="usage"></a>
 ## Usage
     
-Respond to the prompts to populate your README file
+This is a command-line application that accepts user input
+WHEN USER is prompted for information about their application repository
+THEN a high-quality, professional README.md file is generated with the title of their project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+
     
 <a name="license"></a>
 ## License
@@ -50,3 +55,7 @@ NA
 For questions check out my GitHub profile [allisonnault](https://www.github.com/allisonnault)
 
 Or you can email me at [allisonrnault@gmail.com](mailto:allisonrnault@gmail.com)
+
+<a name="sample"></a>
+## Sample
+[sample of generated README](./README-Generator-README.md)
