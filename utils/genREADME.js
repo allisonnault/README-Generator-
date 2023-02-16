@@ -13,6 +13,8 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
       if (license !== "none") {
         return `- [License](#license)`;
+      } else {
+        return " ";
       }
     }
 

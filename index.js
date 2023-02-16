@@ -6,6 +6,18 @@ const readmeInfo = [];
 
 
 inquirer.prompt(questions)
+
+
+
+
+// // TODO: Create a function to initialize app
+function init() {
+return inquirer
+.prompt(questions)
+}
+
+// // Function call to initialize app
+init()
 .then((response) =>
 {readmeInfo.push(response)
 fs.writeFile(`test.md`, genREADME(response), 
@@ -13,12 +25,3 @@ fs.writeFile(`test.md`, genREADME(response),
     if (err) throw err;
     console.log("Your markdown file was created!");
 })});
-
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
