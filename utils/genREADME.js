@@ -74,7 +74,7 @@ ${response.tests}
     
 For questions check out my GitHub profile [${response.gitHub}](https://www.github.com/${response.gitHub})
 
-Or you can email me at [${response.email}](${response.email})`
+Or you can email me at [${response.email}](mailto:${response.email})`
 }
 
 module.exports = genREADME;
