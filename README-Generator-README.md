@@ -4,7 +4,7 @@
     
 ## Description
     
-Application to help create a professional README file
+I wanted to create an application to help the user write a professional README.md file
     
 ## Table of Contents
     
@@ -23,7 +23,7 @@ How to install dependancies: npm i
 <a name="usage"></a>
 ## Usage
     
-respond to the questions in the prompts to populate your README
+Respond to the prompts to populate your README file
     
 <a name="license"></a>
 ## License
@@ -45,4 +45,4 @@ NA
     
 For questions check out my GitHub profile [allisonnault](https://www.github.com/allisonnault)
 
-Or you can email me at [allisonrnault@gmail.com](allisonrnault@gmail.com)
+Or you can email me at [allisonrnault@gmail.com](mailto:allisonrnault@gmail.com)
