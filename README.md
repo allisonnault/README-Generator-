@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-![demo video](./resources/README%20Generator.mp4)
+[demo video](https://watch.screencastify.com/v/CzpUyR6hSJbkt7EfjBbz)
 
 
 ## Description
